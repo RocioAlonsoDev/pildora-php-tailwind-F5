@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <form action="form.php" method="POST" class="flex flex-column">
+        <input type="text" name="titulo" placeholder="Título receta">
+        <input type="text" name="ingredientes" placeholder="Inserte, separado por comas, los ingredientes">
+        <input type="text" name="preparacion" placeholder="Preparación">
+        <input type="text" name="duracion">
+        <select name="dificultad">
+            <option value="facil">Fácil</option>
+            <option value="media">Media</option>
+            <option value="dificil">Difícil</option>
+        </select>
+        <input type="text" name="img" placeholder="Pega aquí la URL de la imágen">
+        <input type="submit" value="Guardar">
+    </form>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
